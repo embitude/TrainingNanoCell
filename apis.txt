@@ -1,0 +1,63 @@
+
+PCI_DEVICE(vendor_id, producd_id)
+
+#include <linux/pci.h>
+pci_register_driver(struct pci_driver *)
+pci_unregister_driver(struct pci_driver *)
+
+Configuration space related commands
+------------------------------------
+int pci_read_config_byte(const struct pci_dev *dev, int where, u8 *val);
+int pci_read_config_word(const struct pci_dev *dev, int where, u16 *val);
+int pci_read_config_dword(const struct pci_dev *dev, int where, u32 *val);
+int pci_write_config_byte(const struct pci_dev *dev, int where, u8 val);
+int pci_write_config_word(const struct pci_dev *dev, int where, u16 val);
+int pci_write_config_dword(const struct pci_dev *dev, int where, u32 val);
+
+pci_resource_start(dev, bar)
+pci_resource_end(dev, bar)
+pci_resource_flags(dev, bar)
+pci_resource_len(dev,bar)
+
+Masks for the flags
+-------------------
+PCI_BASE_ADDRESS_SPACE_IO
+PCI_BASE_ADDRESS_MEM_PREFETCH
+
+
+int pci_enable_device(struct pci_dev *dev);
+int pci_request_regions(struct pci_dev *, const char *);
+void *ioremap(phys_addr_t paddr, unsigned long size);
+void iounmap(const void *addr);
+pci_resource_start(dev, bar)
+pci_resource_len(dev,bar)
+void pci_release_regions(struct pci_dev *);
+void pci_disable_device(struct pci_dev *dev)
+unsigned int ioread8(const void *);
+void iowrite8(u8, void *);
+void iowrite32(u32, void *);
+
+Network Driver Related
+----------------------
+#include <linux/netdevice.h>
+struct net_device *alloc_netdev(int sizeof_priv, const char *name,
+                                    unsigned char name_assign_type,
+                                    void (*setup)(struct net_device *)
+
+
+DMA related
+-----------
+void *pci_alloc_consistent(struct pci_dev *hwdev, size_t size, dma_addr_t *dma_handle)
+void
+pci_free_consistent(struct pci_dev *hwdev, size_t size, void *vaddr, dma_addr_t dma_handle)
+dma_addr_t pci_map_single(struct pci_dev *hwdev, void *ptr, size_t size, int direction)
+dir
+ PCI_DMA_TODEVICE
+ PCI_DMA_FROMDEVICE
+
+ void pci_unmap_single(struct pci_dev *hwdev, dma_addr_t dma_addr, size_t size, int direction)
+
+void atomic_set(atomic_t *v, int i)
+void atomic_inc(atomic_t *v)
+void atomic_dec(atomic_t *v)
+
