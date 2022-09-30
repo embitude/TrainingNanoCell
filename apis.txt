@@ -43,7 +43,29 @@ Network Driver Related
 struct net_device *alloc_netdev(int sizeof_priv, const char *name,
                                     unsigned char name_assign_type,
                                     void (*setup)(struct net_device *)
+priv = netdev_priv(dev);
 
+int rtnl_link_register(struct rtnl_link_ops *ops);
+
+//sk_buff related
+struct sk_buff *dev_alloc_skb(unsigned int length)
+void dev_kfree_skb(struct sk_buff *skb);
+void skb_reserve(struct sk_buff *skb, int len)
+void *skb_put(struct sk_buff *skb, unsigned int len);
+
+//NAPI related
+void napi_schedule(struct napi_struct *n)
+bool napi_complete_done(struct napi_struct *n, int work_done);
+void napi_disable(struct napi_struct *n);
+void napi_enable(struct napi_struct *n);
+
+//Network Stack communication related
+int netif_receive_skb(struct sk_buff *skb);
+void netif_stop_queue(struct net_device *dev)
+void netif_start_queue(struct net_device *dev)
+void netif_wake_queue(struct net_device *dev);
+bool netif_queue_stopped(const struct net_device *dev)
+int netif_rx(struct sk_buff *skb);
 
 DMA related
 -----------

@@ -15,6 +15,6 @@ clean:
 else
 
 	#obj-m := snull.o pn.o
-	obj-m := dummy.o dummy_rtnl.o dummy_hw.o dummy_ping.o
+	obj-m := dummy.o dummy_hw.o snull.o
 
 endif
