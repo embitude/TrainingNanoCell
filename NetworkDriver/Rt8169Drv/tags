@@ -1,0 +1,286 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AcceptAllPhys	r8101.h	/^	AcceptAllPhys	= 0x01,$/;"	e	enum:RxConfigBits
+AcceptBroadcast	r8101.h	/^	AcceptBroadcast	= 0x08,$/;"	e	enum:RxConfigBits
+AcceptErr	r8101.h	/^	AcceptErr	= 0x20,$/;"	e	enum:RxConfigBits
+AcceptMulticast	r8101.h	/^	AcceptMulticast	= 0x04,$/;"	e	enum:RxConfigBits
+AcceptMyPhys	r8101.h	/^	AcceptMyPhys	= 0x02,$/;"	e	enum:RxConfigBits
+AcceptRunt	r8101.h	/^	AcceptRunt	= 0x10,$/;"	e	enum:RxConfigBits
+CPlusCmd	r8101.h	/^	CPlusCmd = 0xE0,$/;"	e	enum:RTL8101Registers
+CSIAR	r8101.h	/^	CSIAR = 0x68,$/;"	e	enum:RTL8101Registers
+CSIDR	r8101.h	/^	CSIDR = 0x64,$/;"	e	enum:RTL8101Registers
+Cfg9346	r8101.h	/^	Cfg9346 = 0x50,$/;"	e	enum:RTL8101Registers
+Cfg9346Bits	r8101.h	/^enum Cfg9346Bits {$/;"	g
+Cfg9346_Lock	r8101.h	/^	Cfg9346_Lock	= 0x00,$/;"	e	enum:Cfg9346Bits
+Cfg9346_Unlock	r8101.h	/^	Cfg9346_Unlock	= 0xC0$/;"	e	enum:Cfg9346Bits
+ChipCmd	r8101.h	/^	ChipCmd = 0x37,$/;"	e	enum:RTL8101Registers
+ChipCmdBits	r8101.h	/^enum ChipCmdBits {$/;"	g
+ChipCmdClear	r8101.h	/^	ChipCmdClear	= 0xE2,$/;"	e	enum:ClearBitMasks
+ClearBitMasks	r8101.h	/^enum ClearBitMasks {$/;"	g
+CmdReset	r8101.h	/^	CmdReset	= 0x10,$/;"	e	enum:ChipCmdBits
+CmdRxEnb	r8101.h	/^	CmdRxEnb	= 0x08,$/;"	e	enum:ChipCmdBits
+CmdTxEnb	r8101.h	/^	CmdTxEnb	= 0x04,$/;"	e	enum:ChipCmdBits
+Config0	r8101.h	/^	Config0 = 0x51,$/;"	e	enum:RTL8101Registers
+Config1	r8101.h	/^	Config1 = 0x52,$/;"	e	enum:RTL8101Registers
+Config1Clear	r8101.h	/^	Config1Clear	= (1<<7)|(1<<6)|(1<<3)|(1<<2)|(1<<1)$/;"	e	enum:ClearBitMasks
+Config2	r8101.h	/^	Config2 = 0x53,$/;"	e	enum:RTL8101Registers
+Config3	r8101.h	/^	Config3 = 0x54,$/;"	e	enum:RTL8101Registers
+Config4	r8101.h	/^	Config4 = 0x55,$/;"	e	enum:RTL8101Registers
+Config5	r8101.h	/^	Config5 = 0x56,$/;"	e	enum:RTL8101Registers
+CounterAddrHigh	r8101.h	/^	CounterAddrHigh = 0x14,$/;"	e	enum:RTL8101Registers
+CounterAddrLow	r8101.h	/^	CounterAddrLow = 0x10,$/;"	e	enum:RTL8101Registers
+DBG_reg	r8101.h	/^	DBG_reg = 0xD1,$/;"	e	enum:RTL8101Registers
+Desc	net_stk.h	/^struct Desc$/;"	s
+DescOwn	r8101.h	/^	DescOwn		= (1 << 31), \/* Descriptor is owned by NIC *\/$/;"	e	enum:DescStatusBits
+DescStatusBits	r8101.h	/^enum DescStatusBits {$/;"	g
+DrvPvt	net_stk.h	/^} DrvPvt;$/;"	t	typeref:struct:_DrvPvt
+EPHYAR	r8101.h	/^	EPHYAR = 0x80,$/;"	e	enum:RTL8101Registers
+ERIAR	r8101.h	/^	ERIAR = 0x74,$/;"	e	enum:RTL8101Registers
+ERIDR	r8101.h	/^	ERIDR = 0x70,$/;"	e	enum:RTL8101Registers
+ERSR	r8101.h	/^	ERSR = 0x36,$/;"	e	enum:RTL8101Registers
+EXPT_PRODUCT_ID	pci_net.c	8;"	d	file:
+EXPT_VENDOR_ID	pci_net.c	7;"	d	file:
+FSWInt	r8101.h	/^	FSWInt = 0x01$/;"	e	enum:TxPrioPoll
+FirstFrag	r8101.h	/^	FirstFrag	= (1 << 29), \/* First segment of a packet *\/$/;"	e	enum:DescStatusBits
+FullDup	phy.c	/^	FullDup = 0x01$/;"	e	enum:PhyBits	file:
+GPIO	r8101.h	/^	GPIO = 0x6E,$/;"	e	enum:RTL8101Registers
+HPQ	r8101.h	/^	HPQ = 0x80,$/;"	e	enum:TxPrioPoll
+IntrEnMask	r8101.h	/^	IntrEnMask	= RxDescUnavail | TxOK | RxOK | SWInt$/;"	e	enum:IntrStatusBits
+IntrMask	r8101.h	/^	IntrMask = 0x3C,$/;"	e	enum:RTL8101Registers
+IntrMitigate	r8101.h	/^	IntrMitigate = 0xE2,$/;"	e	enum:RTL8101Registers
+IntrStatus	r8101.h	/^	IntrStatus = 0x3E,$/;"	e	enum:RTL8101Registers
+IntrStatusBits	r8101.h	/^enum IntrStatusBits {$/;"	g
+LargeSend	r8101.h	/^	LargeSend	= (1 << 27), \/* TCP Large Send Offload (TSO) *\/$/;"	e	enum:DescStatusBits
+LastFrag	r8101.h	/^	LastFrag	= (1 << 28), \/* Final segment of a packet *\/$/;"	e	enum:DescStatusBits
+LinkChg	r8101.h	/^	LinkChg		= 0x20,$/;"	e	enum:IntrStatusBits
+LinkStatus	phy.c	/^	LinkStatus = 0x02,$/;"	e	enum:PhyBits	file:
+MAC0	r8101.h	/^	MAC0 = 0,		\/* Ethernet hardware address. *\/$/;"	e	enum:RTL8101Registers
+MAC4	r8101.h	/^	MAC4 = 0x04,$/;"	e	enum:RTL8101Registers
+MACDBG	r8101.h	/^	MACDBG = 0x6D,$/;"	e	enum:RTL8101Registers
+MACOCP	r8101.h	/^	MACOCP = 0xB0,$/;"	e	enum:RTL8101Registers
+MAC_H	mac.h	3;"	d
+MAR0	r8101.h	/^	MAR0 = 8,		\/* Multicast filter. *\/$/;"	e	enum:RTL8101Registers
+MCUCmd_reg	r8101.h	/^	MCUCmd_reg = 0xD3,$/;"	e	enum:RTL8101Registers
+MSSMask	r8101.h	/^	MSSMask		= 0x7FFU,	 \/* MSS value 11 bits *\/$/;"	e	enum:DescStatusBits
+MSSShift	r8101.h	/^	MSSShift	= 16,		 \/* MSS value position *\/$/;"	e	enum:DescStatusBits
+MTPS	r8101.h	/^	MTPS = 0xEC,$/;"	e	enum:RTL8101Registers
+MultiIntrClear	r8101.h	/^	MultiIntrClear	= 0xF000,$/;"	e	enum:ClearBitMasks
+NET_STK_H	net_stk.h	2;"	d
+NPQ	r8101.h	/^	NPQ = 0x40,$/;"	e	enum:TxPrioPoll
+NUM_RX_DESC	net_stk.h	24;"	d
+NUM_TX_DESC	net_stk.h	23;"	d
+OCPAR	r8101.h	/^	OCPAR = 0xB4,$/;"	e	enum:RTL8101Registers
+OCPDR	r8101.h	/^	OCPDR = 0xB0,$/;"	e	enum:RTL8101Registers
+PCIErr	r8101.h	/^	PCIErr		= 0x8000,$/;"	e	enum:IntrStatusBits
+PCSTimeout	r8101.h	/^	PCSTimeout	= 0x4000,$/;"	e	enum:IntrStatusBits
+PHYAR	r8101.h	/^	PHYAR = 0x60,$/;"	e	enum:RTL8101Registers
+PHYAR_Data_Mask	phy.c	/^	PHYAR_Data_Mask = 0xffff,$/;"	e	enum:PhyBits	file:
+PHYAR_Flag	phy.c	/^	PHYAR_Flag = 0x80000000,$/;"	e	enum:PhyBits	file:
+PHYAR_Read	phy.c	/^	PHYAR_Read = 0x00000000,$/;"	e	enum:PhyBits	file:
+PHYAR_Reg_Mask	phy.c	/^	PHYAR_Reg_Mask = 0x1f,$/;"	e	enum:PhyBits	file:
+PHYAR_Reg_Shift	phy.c	/^	PHYAR_Reg_Shift = 16,$/;"	e	enum:PhyBits	file:
+PHYAR_Write	phy.c	/^	PHYAR_Write = 0x80000000,$/;"	e	enum:PhyBits	file:
+PHYIO	r8101.h	/^	PHYIO = 0xF8,$/;"	e	enum:RTL8101Registers
+PHYOCP	r8101.h	/^	PHYOCP = 0xB8,$/;"	e	enum:RTL8101Registers
+PHY_H	phy.h	3;"	d
+PHYstatus	r8101.h	/^	PHYstatus = 0x6C,$/;"	e	enum:RTL8101Registers
+PID0	r8101.h	/^	PID0		= (1 << 17), \/* Protocol ID bit 2\/2 *\/$/;"	e	enum:DescStatusBits
+PID1	r8101.h	/^	PID1		= (1 << 18), \/* Protocol ID bit 1\/2 *\/$/;"	e	enum:DescStatusBits
+PMCH	r8101.h	/^	PMCH = 0x6F,$/;"	e	enum:RTL8101Registers
+PhyBits	phy.c	/^enum PhyBits {$/;"	g	file:
+R8101_H	r8101.h	2;"	d
+R8101_NAPI_WEIGHT	net_stk.c	28;"	d	file:
+R8101_REGS_SIZE	r8101.h	15;"	d
+R8101_RX_RING_BYTES	net_stk.c	31;"	d	file:
+R8101_TX_RING_BYTES	net_stk.c	30;"	d	file:
+REG_R16	r8101.h	9;"	d
+REG_R32	r8101.h	10;"	d
+REG_R8	r8101.h	8;"	d
+REG_W16	r8101.h	12;"	d
+REG_W32	r8101.h	13;"	d
+REG_W8	r8101.h	11;"	d
+RTK_RX_ALIGN	net_stk.c	43;"	d	file:
+RTL8101Registers	r8101.h	/^enum RTL8101Registers {$/;"	g
+RTL8101_LINK_TIMEOUT	net_stk.c	34;"	d	file:
+RTL8101_TX_TIMEOUT	net_stk.c	33;"	d	file:
+RTL_CHIP_NAME	net_stk.c	20;"	d	file:
+RX_BUF_SIZE	net_stk.c	44;"	d	file:
+RingEnd	r8101.h	/^	RingEnd		= (1 << 30), \/* End of descriptor ring *\/$/;"	e	enum:DescStatusBits
+RingInfo	net_stk.h	/^} RingInfo;$/;"	t	typeref:struct:_RingInfo
+Rx9356SEL	r8101.h	/^	Rx9356SEL = (1 << 6),$/;"	e	enum:RxConfigBits
+RxBadAlign	r8101.h	/^	RxBadAlign	= 0x0002,$/;"	e	enum:RxStatusBits
+RxBadSymbol	r8101.h	/^	RxBadSymbol	= 0x0020,$/;"	e	enum:RxStatusBits
+RxBroadcast	r8101.h	/^	RxBroadcast	= 0x2000,$/;"	e	enum:RxStatusBits
+RxBufEmpty	r8101.h	/^	RxBufEmpty	= 0x01$/;"	e	enum:ChipCmdBits
+RxCRC	r8101.h	/^	RxCRC		= (1 << 19),$/;"	e	enum:DescStatusBits
+RxCRCErr	r8101.h	/^	RxCRCErr	= 0x0004,$/;"	e	enum:RxStatusBits
+RxConfig	r8101.h	/^	RxConfig = 0x44,$/;"	e	enum:RTL8101Registers
+RxConfigBits	r8101.h	/^enum RxConfigBits {$/;"	g
+RxConfigMask	r8101.h	/^	RxConfigMask	= 0xFF7E1880$/;"	e	enum:RxConfigBits
+RxDMAShift	r8101.h	/^	RxDMAShift	= 8, \/* DMA burst value (0-6) is shifted this many bits *\/$/;"	e	enum:RxConfigBits
+RxDMAUnlimited	r8101.h	/^	RxDMAUnlimited = (6 << RxDMAShift),$/;"	e	enum:RxConfigBits
+RxDescAddrHigh	r8101.h	/^	RxDescAddrHigh = 0xE8,$/;"	e	enum:RTL8101Registers
+RxDescAddrLow	r8101.h	/^	RxDescAddrLow = 0xE4,$/;"	e	enum:RTL8101Registers
+RxDescArray	net_stk.h	/^	struct Desc *RxDescArray; \/* 256-aligned Rx descriptor ring *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::Desc
+RxDescUnavail	r8101.h	/^	RxDescUnavail = 0x10,$/;"	e	enum:IntrStatusBits
+RxErr	r8101.h	/^	RxErr		= 0x02,$/;"	e	enum:IntrStatusBits
+RxFIFONone	r8101.h	/^	RxFIFONone	= (7 << RxFIFOShift),$/;"	e	enum:RxConfigBits
+RxFIFOOver	r8101.h	/^	RxFIFOOver	= 0x40,$/;"	e	enum:IntrStatusBits
+RxFIFOShift	r8101.h	/^	RxFIFOShift	= 13,$/;"	e	enum:RxConfigBits
+RxFlowCtrl	phy.c	/^	RxFlowCtrl = 0x20,$/;"	e	enum:PhyBits	file:
+RxIPF	r8101.h	/^	RxIPF		= (1 << 16), \/* IP checksum failed *\/$/;"	e	enum:DescStatusBits
+RxMaxSize	r8101.h	/^	RxMaxSize = 0xDA,$/;"	e	enum:RTL8101Registers
+RxMulticast	r8101.h	/^	RxMulticast	= 0x8000,$/;"	e	enum:RxStatusBits
+RxNoWrap	r8101.h	/^	RxNoWrap	= (1 << 7),$/;"	e	enum:RxConfigBits
+RxOK	r8101.h	/^	RxOK		= 0x01,$/;"	e	enum:IntrStatusBits
+RxPhyAddr	net_stk.h	/^	dma_addr_t RxPhyAddr; \/* Rx descriptor ring's physical address *\/$/;"	m	struct:_DrvPvt
+RxPhysical	r8101.h	/^	RxPhysical	= 0x4000,$/;"	e	enum:RxStatusBits
+RxProtoIP	r8101.h	100;"	d
+RxProtoMask	r8101.h	101;"	d
+RxProtoTCP	r8101.h	99;"	d
+RxProtoUDP	r8101.h	98;"	d
+RxRES	r8101.h	/^	RxRES		= (1 << 21),$/;"	e	enum:DescStatusBits
+RxRUNT	r8101.h	/^	RxRUNT		= (1 << 20),$/;"	e	enum:DescStatusBits
+RxRWT	r8101.h	/^	RxRWT		= (1 << 22),$/;"	e	enum:DescStatusBits
+RxRcv16K	r8101.h	/^	RxRcv16K	= (1 << 11),$/;"	e	enum:RxConfigBits
+RxRcv32K	r8101.h	/^	RxRcv32K	= (1 << 12),$/;"	e	enum:RxConfigBits
+RxRcv64K	r8101.h	/^	RxRcv64K	= (1 << 11) | (1 << 12),$/;"	e	enum:RxConfigBits
+RxRcv8K	r8101.h	/^	RxRcv8K	= 0,$/;"	e	enum:RxConfigBits
+RxRunt	r8101.h	/^	RxRunt		= 0x0010,$/;"	e	enum:RxStatusBits
+RxStatusBits	r8101.h	/^enum RxStatusBits {$/;"	g
+RxStatusOK	r8101.h	/^	RxStatusOK	= 0x0001$/;"	e	enum:RxStatusBits
+RxTCPF	r8101.h	/^	RxTCPF		= (1 << 14), \/* TCP\/IP checksum failed *\/$/;"	e	enum:DescStatusBits
+RxTooLong	r8101.h	/^	RxTooLong	= 0x0008,$/;"	e	enum:RxStatusBits
+RxUDPF	r8101.h	/^	RxUDPF		= (1 << 15), \/* UDP\/IP checksum failed *\/$/;"	e	enum:DescStatusBits
+RxVlanTag	r8101.h	/^	RxVlanTag	= (1 << 16), \/* VLAN tag available *\/$/;"	e	enum:DescStatusBits
+SWInt	r8101.h	/^	SWInt		= 0x0100,$/;"	e	enum:IntrStatusBits
+StopReq	r8101.h	/^	StopReq		= 0x80,$/;"	e	enum:ChipCmdBits
+TCTR	r8101.h	/^	TCTR = 0x48,$/;"	e	enum:RTL8101Registers
+TDFNR	r8101.h	/^	TDFNR	= 0x57,$/;"	e	enum:RTL8101Registers
+TX_BUFFS_AVAIL	net_stk.c	36;"	d	file:
+TimeIntr	r8101.h	/^	TimeIntr = 0x58,$/;"	e	enum:RTL8101Registers
+TxAborted	r8101.h	/^	TxAborted	= 0x40000000,$/;"	e	enum:TxStatusBits
+TxCRC	r8101.h	/^	TxCRC		= (1 << 16),	\/* DISABLE Tx pkt CRC append *\/$/;"	e	enum:TxConfigBits
+TxCarrierLost	r8101.h	/^	TxCarrierLost	= 0x80000000$/;"	e	enum:TxStatusBits
+TxClearAbt	r8101.h	/^	TxClearAbt	= (1 << 0),	\/* Clear abort (WO) *\/$/;"	e	enum:TxConfigBits
+TxConfig	r8101.h	/^	TxConfig = 0x40,$/;"	e	enum:RTL8101Registers
+TxConfigBits	r8101.h	/^enum TxConfigBits {$/;"	g
+TxDMAShift	r8101.h	/^	TxDMAShift	= 8, \/* DMA burst value (0-6) is shifted this many bits *\/$/;"	e	enum:TxConfigBits
+TxDMAUnlimited	r8101.h	/^	TxDMAUnlimited = (6 << TxDMAShift),$/;"	e	enum:TxConfigBits
+TxDescArray	net_stk.h	/^	struct Desc *TxDescArray; \/* 256-aligned Tx descriptor ring *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::Desc
+TxDescStartAddrHigh	r8101.h	/^	TxDescStartAddrHigh = 0x24,$/;"	e	enum:RTL8101Registers
+TxDescStartAddrLow	r8101.h	/^	TxDescStartAddrLow = 0x20,$/;"	e	enum:RTL8101Registers
+TxDescUnavail	r8101.h	/^	TxDescUnavail = 0x80,$/;"	e	enum:IntrStatusBits
+TxErr	r8101.h	/^	TxErr		= 0x08,$/;"	e	enum:IntrStatusBits
+TxFlowCtrl	phy.c	/^	TxFlowCtrl = 0x40,$/;"	e	enum:PhyBits	file:
+TxHDescStartAddrHigh	r8101.h	/^	TxHDescStartAddrHigh = 0x2c,$/;"	e	enum:RTL8101Registers
+TxHDescStartAddrLow	r8101.h	/^	TxHDescStartAddrLow = 0x28,$/;"	e	enum:RTL8101Registers
+TxHostOwns	r8101.h	/^	TxHostOwns	= 0x2000,$/;"	e	enum:TxStatusBits
+TxIFG84	r8101.h	/^	TxIFG84		= (0 << TxIFGShift), \/* 8.4us \/ 840ns (10 \/ 100Mbps) *\/$/;"	e	enum:TxConfigBits
+TxIFG88	r8101.h	/^	TxIFG88		= (1 << TxIFGShift), \/* 8.8us \/ 880ns (10 \/ 100Mbps) *\/$/;"	e	enum:TxConfigBits
+TxIFG92	r8101.h	/^	TxIFG92		= (2 << TxIFGShift), \/* 9.2us \/ 920ns (10 \/ 100Mbps) *\/$/;"	e	enum:TxConfigBits
+TxIFG96	r8101.h	/^	TxIFG96		= (3 << TxIFGShift), \/* 9.6us \/ 960ns (10 \/ 100Mbps) *\/$/;"	e	enum:TxConfigBits
+TxIFGShift	r8101.h	/^	TxIFGShift	= 24,$/;"	e	enum:TxConfigBits
+TxIPCS	r8101.h	/^	TxIPCS		= (1 << 18), \/* Calculate IP checksum *\/$/;"	e	enum:DescStatusBits
+TxLoopBack	r8101.h	/^	TxLoopBack	= (1 << 18) | (1 << 17), \/* Enable loopback test mode *\/$/;"	e	enum:TxConfigBits
+TxOK	r8101.h	/^	TxOK		= 0x04,$/;"	e	enum:IntrStatusBits
+TxOutOfWindow	r8101.h	/^	TxOutOfWindow	= 0x20000000,$/;"	e	enum:TxStatusBits
+TxPhyAddr	net_stk.h	/^	dma_addr_t TxPhyAddr; \/* Tx descriptor ring's physical address *\/$/;"	m	struct:_DrvPvt
+TxPoll	r8101.h	/^	TxPoll = 0x38,$/;"	e	enum:RTL8101Registers
+TxPrioPoll	r8101.h	/^enum TxPrioPoll {$/;"	g
+TxRetryShift	r8101.h	/^	TxRetryShift	= 4, \/* TXRR value (0-15) is shifted this many bits *\/$/;"	e	enum:TxConfigBits
+TxStatOK	r8101.h	/^	TxStatOK	= 0x8000,$/;"	e	enum:TxStatusBits
+TxStatusBits	r8101.h	/^enum TxStatusBits {$/;"	g
+TxTCPCS	r8101.h	/^	TxTCPCS		= (1 << 16), \/* Calculate TCP\/IP checksum *\/$/;"	e	enum:DescStatusBits
+TxUDPCS	r8101.h	/^	TxUDPCS		= (1 << 17), \/* Calculate UDP\/IP checksum *\/$/;"	e	enum:DescStatusBits
+TxUnderrun	r8101.h	/^	TxUnderrun	= 0x4000,$/;"	e	enum:TxStatusBits
+TxVersionMask	r8101.h	/^	TxVersionMask	= 0x7C800000 \/* mask out version bits 30-26, 23 *\/$/;"	e	enum:TxConfigBits
+TxVlanTag	r8101.h	/^	TxVlanTag	= (1 << 17), \/* Add VLAN tag *\/$/;"	e	enum:DescStatusBits
+_100bps	phy.c	/^	_100bps = 0x08,$/;"	e	enum:PhyBits	file:
+_10bps	phy.c	/^	_10bps = 0x04,$/;"	e	enum:PhyBits	file:
+_DrvPvt	net_stk.h	/^typedef struct _DrvPvt$/;"	s
+_RingInfo	net_stk.h	/^typedef struct _RingInfo$/;"	s
+__pad	net_stk.h	/^	uint8_t __pad[sizeof(void *) - sizeof(uint32_t)];$/;"	m	struct:_RingInfo
+addr	net_stk.h	/^	uint64_t addr;$/;"	m	struct:Desc
+assert	net_stk.c	22;"	d	file:
+cprintk	net_stk.h	20;"	d
+cur_rx	net_stk.h	/^	uint32_t cur_rx; \/* RxDescArray index of the Rx desc of the next to be processed (by sw) pkt *\/$/;"	m	struct:_DrvPvt
+cur_tx	net_stk.h	/^	uint32_t cur_tx; \/* TxDescArray index of the next available Tx desc for putting Tx pkt (by sw) *\/$/;"	m	struct:_DrvPvt
+dev	net_stk.h	/^	struct net_device *dev; \/* Pointer to net device data *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::net_device
+dirty_rx	net_stk.h	/^	uint32_t dirty_rx; \/* RxDescArray index of the next to last available Rx desc for putting Rx pkt (by hw) *\/$/;"	m	struct:_DrvPvt
+dirty_tx	net_stk.h	/^	uint32_t dirty_tx; \/* TxDescArray index of the Tx desc of the next to be transmitted (by hw) pkt *\/$/;"	m	struct:_DrvPvt
+dprintk	net_stk.h	15;"	d
+egprintk	net_stk.h	21;"	d
+eprintk	net_stk.h	19;"	d
+iprintk	net_stk.h	16;"	d
+len	net_stk.h	/^	uint32_t len;$/;"	m	struct:_RingInfo
+link_timer	net_stk.h	/^	struct timer_list link_timer; \/\/ For handling link status changes$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::timer_list
+lock	net_stk.h	/^	spinlock_t lock; \/* Spin lock for this *\/$/;"	m	struct:_DrvPvt
+napi	net_stk.h	/^	struct napi_struct napi; \/* The napi structure *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::napi_struct
+net_deregister_dev	net_stk.c	/^void net_deregister_dev(struct pci_dev *pdev)$/;"	f
+net_register_dev	net_stk.c	/^int net_register_dev(struct pci_dev *pdev)$/;"	f
+nprintk	net_stk.h	17;"	d
+opts1	net_stk.h	/^	uint32_t opts1;$/;"	m	struct:Desc
+opts2	net_stk.h	/^	uint32_t opts2;$/;"	m	struct:Desc
+pci_dev	net_stk.h	/^	struct pci_dev *pci_dev; \/* Pointer to PCI device data *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::pci_dev
+pci_drv	pci_net.c	/^static struct pci_driver pci_drv =$/;"	v	typeref:struct:pci_driver	file:
+phy_link_status_on	phy.c	/^bool phy_link_status_on(void __iomem *reg_base)$/;"	f
+phy_power_down	phy.c	/^void phy_power_down(void __iomem *reg_base)$/;"	f
+phy_power_up	phy.c	/^void phy_power_up(void __iomem *reg_base)$/;"	f
+phy_reg_write	phy.c	/^static void phy_reg_write(void *__iomem reg_base, uint32_t reg_addr, uint32_t value)$/;"	f	file:
+pn_drv_exit	pci_net.c	/^module_exit(pn_drv_exit);$/;"	v
+pn_drv_exit	pci_net.c	/^static void __exit pn_drv_exit(void)$/;"	f	file:
+pn_drv_init	pci_net.c	/^module_init(pn_drv_init);$/;"	v
+pn_drv_init	pci_net.c	/^static int __init pn_drv_init(void)$/;"	f	file:
+pn_probe	pci_net.c	/^static int pn_probe(struct pci_dev *dev, const struct pci_device_id *id)$/;"	f	file:
+pn_remove	pci_net.c	/^static void pn_remove(struct pci_dev *dev)$/;"	f	file:
+pn_table	pci_net.c	/^static struct pci_device_id pn_table[] =$/;"	v	typeref:struct:pci_device_id	file:
+reg_base	net_stk.h	/^	void __iomem *reg_base;	\/* Memory map to bus address *\/$/;"	m	struct:_DrvPvt
+rtl8101_alloc_rx_skb	net_stk.c	/^static int rtl8101_alloc_rx_skb(struct pci_dev *pdev,$/;"	f	file:
+rtl8101_check_link_status	net_stk.c	/^static void rtl8101_check_link_status(struct net_device *dev)$/;"	f	file:
+rtl8101_close	net_stk.c	/^static int rtl8101_close(struct net_device *dev)$/;"	f	file:
+rtl8101_delete_link_timer	net_stk.c	/^static inline void rtl8101_delete_link_timer(struct net_device *dev)$/;"	f	file:
+rtl8101_desc_addr_fill	mac.c	/^static void rtl8101_desc_addr_fill(DrvPvt *pvt)$/;"	f	file:
+rtl8101_disable_n_clear_interrupts	mac.c	/^void rtl8101_disable_n_clear_interrupts(void __iomem *reg_base)$/;"	f
+rtl8101_enable_interrupts	mac.c	/^void rtl8101_enable_interrupts(void __iomem *reg_base, uint16_t intr_mask)$/;"	f
+rtl8101_free_rx_skb	net_stk.c	/^static void rtl8101_free_rx_skb(DrvPvt *pvt,$/;"	f	file:
+rtl8101_get_intr_status	mac.c	/^uint16_t rtl8101_get_intr_status(void __iomem *reg_base)$/;"	f
+rtl8101_get_mac_address	mac.c	/^void rtl8101_get_mac_address(struct net_device *dev)$/;"	f
+rtl8101_get_stats	net_stk.c	/^static struct net_device_stats *rtl8101_get_stats(struct net_device *dev)$/;"	f	file:
+rtl8101_hw_init	mac.c	/^void rtl8101_hw_init(struct net_device *dev)$/;"	f
+rtl8101_hw_reset	mac.c	/^void rtl8101_hw_reset(void __iomem *reg_base)$/;"	f
+rtl8101_init_buffers	net_stk.c	/^static int rtl8101_init_buffers(DrvPvt *pvt)$/;"	f	file:
+rtl8101_init_ring_indexes	net_stk.c	/^static void rtl8101_init_ring_indexes(DrvPvt *pvt)$/;"	f	file:
+rtl8101_interrupt	net_stk.c	/^static irqreturn_t rtl8101_interrupt(int irq, void *dev_instance)$/;"	f	file:
+rtl8101_link_timer	net_stk.c	/^static void rtl8101_link_timer(unsigned long __opaque)$/;"	f	file:
+rtl8101_make_unusable_by_asic	net_stk.c	/^inline void rtl8101_make_unusable_by_asic(struct Desc *desc)$/;"	f
+rtl8101_map_to_asic	net_stk.c	/^static inline void rtl8101_map_to_asic(struct Desc *desc,$/;"	f	file:
+rtl8101_mark_to_asic	net_stk.c	/^static inline void rtl8101_mark_to_asic(struct Desc *desc,$/;"	f	file:
+rtl8101_netdev_ops	net_stk.c	/^static const struct net_device_ops rtl8101_netdev_ops = {$/;"	v	typeref:struct:net_device_ops	file:
+rtl8101_nic_reset	mac.c	/^static void rtl8101_nic_reset(void __iomem *reg_base)$/;"	f	file:
+rtl8101_notify_for_tx	mac.c	/^void rtl8101_notify_for_tx(void __iomem *reg_base)$/;"	f
+rtl8101_open	net_stk.c	/^static int rtl8101_open(struct net_device *dev)$/;"	f	file:
+rtl8101_poll	net_stk.c	/^static int rtl8101_poll(struct napi_struct *napi_ptr, int budget)$/;"	f	file:
+rtl8101_request_link_timer	net_stk.c	/^static inline void rtl8101_request_link_timer(struct net_device *dev)$/;"	f	file:
+rtl8101_reset_task	net_stk.c	/^static void rtl8101_reset_task(struct work_struct *work)$/;"	f	file:
+rtl8101_rx_clear	net_stk.c	/^static void rtl8101_rx_clear(DrvPvt *pvt)$/;"	f	file:
+rtl8101_rx_fill	net_stk.c	/^static uint32_t rtl8101_rx_fill(DrvPvt *pvt, uint32_t start, uint32_t end)$/;"	f	file:
+rtl8101_rx_interrupt	net_stk.c	/^static int rtl8101_rx_interrupt(struct net_device *dev,$/;"	f	file:
+rtl8101_set_rx_mode	mac.c	/^static void rtl8101_set_rx_mode(void __iomem *reg_base)$/;"	f	file:
+rtl8101_shut_buffers	net_stk.c	/^static void rtl8101_shut_buffers(DrvPvt *pvt)$/;"	f	file:
+rtl8101_start_xmit	net_stk.c	/^static int rtl8101_start_xmit(struct sk_buff *skb,$/;"	f	file:
+rtl8101_tx_clear	net_stk.c	/^static void rtl8101_tx_clear(DrvPvt *pvt)$/;"	f	file:
+rtl8101_tx_interrupt	net_stk.c	/^static void rtl8101_tx_interrupt(struct net_device *dev,$/;"	f	file:
+rtl8101_tx_timeout	net_stk.c	/^static void rtl8101_tx_timeout(struct net_device *dev)$/;"	f	file:
+rtl8101_unmap_tx_skb	net_stk.c	/^static void rtl8101_unmap_tx_skb(struct pci_dev *pdev,$/;"	f	file:
+rx_buf_sz	net_stk.h	/^	unsigned rx_buf_sz;$/;"	m	struct:_DrvPvt
+rx_skbuff	net_stk.h	/^	struct sk_buff *rx_skbuff[NUM_RX_DESC]; \/* Rx data buffers *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::sk_buff
+skb	net_stk.h	/^	struct sk_buff *skb;$/;"	m	struct:_RingInfo	typeref:struct:_RingInfo::sk_buff
+stats	net_stk.h	/^	struct net_device_stats stats; \/* Statistics of net device *\/$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::net_device_stats
+task	net_stk.h	/^	struct delayed_work task; \/\/ For handling timeouts$/;"	m	struct:_DrvPvt	typeref:struct:_DrvPvt::delayed_work
+tx_skb	net_stk.h	/^	RingInfo tx_skb[NUM_TX_DESC]; \/* Tx data buffers *\/$/;"	m	struct:_DrvPvt
+wprintk	net_stk.h	18;"	d

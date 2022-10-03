@@ -54,6 +54,8 @@ void skb_reserve(struct sk_buff *skb, int len)
 void *skb_put(struct sk_buff *skb, unsigned int len);
 
 //NAPI related
+void netif_napi_add(struct net_device *dev, struct napi_struct *napi,
+                    int (*poll)(struct napi_struct *, int), int weight);
 void napi_schedule(struct napi_struct *n)
 bool napi_complete_done(struct napi_struct *n, int work_done);
 void napi_disable(struct napi_struct *n);
