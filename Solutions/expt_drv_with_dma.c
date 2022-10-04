@@ -727,5 +727,5 @@ module_init(expt_pci_init);
 module_exit(expt_pci_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Anil Kumar Pugalia <email@sarika-pugs.com>");
+MODULE_AUTHOR("Pradeep Tewani");
 MODULE_DESCRIPTION("Experimental PCI Device Driver");
